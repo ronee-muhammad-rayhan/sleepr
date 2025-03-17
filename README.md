@@ -119,4 +119,105 @@ npm i -g @nestjs/cli
   nest generate module database -p common
   nest generate module config -p common
 
+
+  485  git commit -m "test ci/cd"
+  486  git push
+  487  git checkout development 
+  488  git status
+  489  git add .
+  490  git commit -m "modify env"
+  491  git checkout development 
+  492  npm run start"dev
+  493  npm run start:dev
+  494  git log
+  495  git add .
+  496  git commit -m "O=> Fix: Resolved GraphQL issues"
+  497  git push origin main
+  498  git branch -b main
+  499  git branch -M main
+  500  git push origin main
+  501  git status
+  502  git log
+  503  ls -alt
+  504  git remote -v
+  505  git add .
+  506  git commit -m "O=> initial commit"
+  507  git push
+  508  git remote add origin https://github.com/ronee-muhammad-rayhan/sleepr.git
+  509  git push -u origin main
+  510  nest generate library common
+  511  history
+  512  git add .
+  513  git commit -m "generate common lib files"
+  514  git push
+  515  npm i @nestjs/mongoose mongoose
+  516  npm i @nestjs/config
+  517  nest generate module -p common
+  518  nest generate module database -p common
+  519  nest generate module config -p common
+  520  git add .
+  521  git status
+  522  git commit -m "O=> database connected successfully"
+  523  git push
+  524  git reset --soft HEAD~1
+  525  git status
+  526  git restore --staged *
+  527  git restore --staged data/db
+  528  git status
+  529  history
+  530  git add .
+  531  git commit -m "O=> database connected successfully"
+  532  git push
+  533  git pull origin main
+  534  git config pull.ff only       # fast-forward only
+  535  git push
+  536  git pull origin main
+  537  git config pull.rebase true   # rebase
+  538  git pull origin main
+  539  git config pull.rebase false  # merge
+  540  git pull origin main
+  541  git push
+  542  git push --help
+  543  git pull
+  544  git fetch origin        # Fetch the latest changes from the remote
+  545  git merge origin/main   # Replace 'main' with your branch name if different
+  546  git pull origin main
+  547  git status
+  548  git status
+  549  git restore data/
+  550  git status
+  551  git restore data/db
+  552  git status
+  553  git log
+  554  git reflog
+  555  git fetch origin
+  556  git reset --hard origin/main
+  557  git reflog
+  558  git status
+  559  git log
+  560  git push
+  561  git status
+  562  git status
+  563  git rm data/db/WiredTiger.turtle
+  564  git rm data/db/WiredTiger.turtle --cached
+  565  git status
+  566  git rm data/ --cached
+  567  git rm data/* --cached
+  568  git rm data/db/sizeStorer.wt --cached
+  569  git status
+  570  git rm modified:   data/db/mongod.lock data/db/index-3--1243385440957942132.wt --cached
+  571  git rm modified:   data/db/mongod.lock  --cached
+  572  git rm  data/db/mongod.lock  --cached
+  573  git rm  data/db/journal/WiredTigerLog.0000000001  --cached
+  574  git status
+  575  git rm  data/db/index-3--1243385440957942132.wt data/db/diagnostic.data/metrics.interim  --cached
+  576  git rm  data/db/collection-2--1243385440957942132.wt  --cached
+  577  git status
+  578  git rm  data/db/WiredTiger.wt  --cached
+  579  git add .
+  580  git status
+  581  git commit -m "delete large files"
+  582  git push
+  583  history
+
 ```
