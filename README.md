@@ -114,5 +114,9 @@ npm i -g @nestjs/cli
   509  git push -u origin main
   510  nest generate library common
   511  history
+  npm i @nestjs/mongoose mongoose
+  pnpm i @nestjs/config
+  nest generate module database -p common
+  nest generate module config -p common
 
 ```
