@@ -96,3 +96,23 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+
+<!-- O=> -->
+```bash
+npm i -g @nestjs/cli
+ 8370  nest
+ 8371  nest -v
+ 8372  nest new sleepr
+ 8373  cd sleepr
+ 8374  ls
+ 8375  code .
+ 8376* npm run start
+ 505  git add .
+  506  git commit -m "O=> initial commit"
+  507  git push
+  508  git remote add origin https://github.com/ronee-muhammad-rayhan/sleepr.git
+  509  git push -u origin main
+  510  nest generate library common
+  511  history
+
+```
